@@ -1,0 +1,3 @@
+A funcao adicionada se chama pega_tamanho_memoria. Ela retorna o tamanho da memória convencional.
+Ela é usada no arquivo main.c e imprimida ne tela com printf.
+O makfefile tambem foi alterado para que a funcao seja compilada (no arquivo libc.S).
