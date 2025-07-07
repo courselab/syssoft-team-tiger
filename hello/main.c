@@ -1,13 +1,11 @@
 #include <stdio.h>
 
-extern unsigned short get_memory_size(void);
+extern unsigned short pega_tamanho_memoria(void);
 
 int main(void)   
 {
-  printf("Hello World\n");
-
-  unsigned short mem_kb = get_memory_size();
-  printf("Memory size: %u KB\n", mem_kb);
+  unsigned short tamanho = pega_tamanho_memoria();
+  printf("Tamanho da memoria: %u\n", tamanho);
 
   return 0;
 }
